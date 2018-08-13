@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mat", "Src\mat\mat.vcxproj", "{89539ADA-C124-48C2-B7B3-002CDF09B3EF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost", "Src\boost\boost.vcxproj", "{55EB54D3-D80D-4E67-8007-09D778726FAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{89539ADA-C124-48C2-B7B3-002CDF09B3EF}.Release|x64.Build.0 = Release|x64
 		{89539ADA-C124-48C2-B7B3-002CDF09B3EF}.Release|x86.ActiveCfg = Release|Win32
 		{89539ADA-C124-48C2-B7B3-002CDF09B3EF}.Release|x86.Build.0 = Release|Win32
+		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Debug|x64.ActiveCfg = Debug|x64
+		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Debug|x64.Build.0 = Debug|x64
+		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Debug|x86.ActiveCfg = Debug|Win32
+		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Debug|x86.Build.0 = Debug|Win32
+		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Release|x64.ActiveCfg = Release|x64
+		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Release|x64.Build.0 = Release|x64
+		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Release|x86.ActiveCfg = Release|Win32
+		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
