@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>F:\Tools\LIBRARY\opencv\opencv-2.4.12\pub\install\include;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\Tools\LIBRARY\opencv\opencv-2.4.12\pub\install\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\_bin\</OutDir>
+    <IntDir>$(SolutionDir)\_build\$(ProjectName)_$(Configuration)_$(PROCESSOR_ARCHITECTURE)\</IntDir>
+    <TargetName>$(ProjectName)_$(PlatformTarget)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup />
+</Project>
