@@ -3,8 +3,8 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>E:\work\VC\opencv\Pub\install\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\work\VC\opencv\Pub\install\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\Tools\LIBRARY\opencv\opencv-2.4.12\pub\install\include;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\Tools\LIBRARY\opencv\opencv-2.4.12\pub\install\x64\vc14\lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)\_bin\</OutDir>
     <IntDir>$(SolutionDir)\_build\$(ProjectName)_$(Configuration)_$(PROCESSOR_ARCHITECTURE)\</IntDir>
     <TargetName>$(ProjectName)_$(PlatformTarget)_$(Configuration)</TargetName>

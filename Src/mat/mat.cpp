@@ -7,9 +7,13 @@
 
 int main()
 {
-	Mat  mat;
+	Mat  img=imread(MAT_IMG_FILENAME, IMREAD_COLOR);
+	imshow("mat", img);
 
-	system("pause");
+	Mat block = img(Rect(120, 120, 160, 160));
+	imshow("block", block);
+	cv::waitKey(0);
+	cv::destroyAllWindows();
     return 0;
 }
 

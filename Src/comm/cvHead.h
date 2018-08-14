@@ -2,6 +2,7 @@
 #define OPENCV_HEAD_20180813_H_
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 
@@ -23,6 +24,9 @@ using namespace cv;
 #pragma comment(lib, "opencv_ml2412.lib")
 #endif // DEBUG
 
+
+//mat project 
+#define	MAT_IMG_FILENAME	"..//doc//sky.jpg"
 
 
 #endif // !OPENCV_HEAD_20180813_H_

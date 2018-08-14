@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mat", "Src\mat\mat.vcxproj", "{89539ADA-C124-48C2-B7B3-002CDF09B3EF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mat", "src\mat\mat.vcxproj", "{89539ADA-C124-48C2-B7B3-002CDF09B3EF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost", "Src\boost\boost.vcxproj", "{55EB54D3-D80D-4E67-8007-09D778726FAC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost", "src\boost\boost.vcxproj", "{55EB54D3-D80D-4E67-8007-09D778726FAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CvDTree", "src\CvDTree\CvDTree.vcxproj", "{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "entropy", "src\entropy\entropy.vcxproj", "{F6CB9267-510E-48A8-98F9-96AC7623901F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,22 @@ Global
 		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Release|x64.Build.0 = Release|x64
 		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Release|x86.ActiveCfg = Release|Win32
 		{55EB54D3-D80D-4E67-8007-09D778726FAC}.Release|x86.Build.0 = Release|Win32
+		{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}.Debug|x64.ActiveCfg = Debug|x64
+		{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}.Debug|x64.Build.0 = Debug|x64
+		{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}.Debug|x86.Build.0 = Debug|Win32
+		{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}.Release|x64.ActiveCfg = Release|x64
+		{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}.Release|x64.Build.0 = Release|x64
+		{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}.Release|x86.ActiveCfg = Release|Win32
+		{1063D4D4-22D0-49A3-B2D8-0B518C56A9D6}.Release|x86.Build.0 = Release|Win32
+		{F6CB9267-510E-48A8-98F9-96AC7623901F}.Debug|x64.ActiveCfg = Debug|x64
+		{F6CB9267-510E-48A8-98F9-96AC7623901F}.Debug|x64.Build.0 = Debug|x64
+		{F6CB9267-510E-48A8-98F9-96AC7623901F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F6CB9267-510E-48A8-98F9-96AC7623901F}.Debug|x86.Build.0 = Debug|Win32
+		{F6CB9267-510E-48A8-98F9-96AC7623901F}.Release|x64.ActiveCfg = Release|x64
+		{F6CB9267-510E-48A8-98F9-96AC7623901F}.Release|x64.Build.0 = Release|x64
+		{F6CB9267-510E-48A8-98F9-96AC7623901F}.Release|x86.ActiveCfg = Release|Win32
+		{F6CB9267-510E-48A8-98F9-96AC7623901F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
